@@ -44,5 +44,36 @@ What is <h4> Counter {counter.id}
 24) What is UseState hook used and where is it used
 25) Give Syntax for USe State hook
 25) write syntax for incrementing a count by 1 using usestate
+26) where did we write Event handler for Delete Button Present in Counter Component
+27) 
+<button onClick={this.props.OnDelete} >
+What is OnDelete in above syntax
+28)
+<button onClick={() => this.props.OnDelete(this.propes.id} >
+What does above syntax do
+29)
+handleDelete = counterId => {
+const counters = this.state.counters.filter ( counter => counter.id !== counterId)
+this.setState(counters)
+
+What is the above syntax doing 
+
+30) {this.state.counters.map(counter => <Counter key={counter.id} onDelete={this.handleDelete} value={counter.value} id={counter.id} /> ))}
+
+what is onDelete here
+what does it do
+
+31)
+{this.state.counters.map(counter => <Counter key={counter.id} onDelete={this.handleDelete}  counter={counter}/> ))}
+
+What is difference between the 30 and 31 question
+
+32) Why did we shift the state of Counter component to Counters Component give reason
+
+33)Name life cycle hooks of a component class
+ 
+
+
+}
 
 

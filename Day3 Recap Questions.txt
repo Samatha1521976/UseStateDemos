@@ -1,0 +1,48 @@
+Recap Questions Day3
+====================
+1) Where did we write this syntax Counter or Counters 
+this.state.counters.map(counter => <Counter key={counter.id} />
+
+2)What is the out put of the above syntax
+
+3)Where did we write this syntax
+state={
+counters:[
+{id:1,value:0},
+{id:1,value:0},
+{id:1,value:0},
+{id:1,value:0},
+]
+}
+
+4) Why did we add id for each counter in counters in above syntax
+5)How to pass data from one component to another
+6)Where do i write the syntax to pass data from one component to another
+7)Name the props or properties in the code below
+this.state.counters.map(counter => <Counter key={counter.id} value={counter.value} selected={true} />
+8)What does console.log (this.props) do in Counter Component
+9) this.state.counters.map(counter => <Counter key={counter.id} value={counter.value} selected={true} >
+<h4> Counter {counter.id} </h4>
+</Counter>
+))}
+What is <h4> Counter {counter.id}
+
+10) how to access the <h4> Counter {counter.id} </h4> in Counter Component Render Method
+11)Can i access the key and print or perform some logic on the key of the map
+12)Which tool did we add as chrome extension to debug the react app
+13)In Developers tool which options should i use to check the props state key function and events of a component
+14)What is $r
+15)What is $r.render
+16)What is $0
+17)What is $0.Click()
+18)What is the difference between props and state
+19)What is single source of truth
+20)What is a controlled Component
+21) What is a function Component
+22) Prior to Hooks Did function components handle state
+23) What is a Hook and why
+24) What is UseState hook used and where is it used
+25) Give Syntax for USe State hook
+25) write syntax for incrementing a count by 1 using usestate
+
+

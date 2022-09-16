@@ -1,0 +1,39 @@
+Recap Questions of Day4
+====================
+1. What is npm i and why
+2. Command to install routing in react
+3. What is BrowserRouter and why
+4. Where did we import BrowserRouter and where did we write BorwserRouter
+5. What happens if you do not add BrowserRouter to your program after installing
+6. How to add routing in index.js give syntax
+7. how many routes can be there in a program
+8. What is exact and why and where did we add it
+9. What is Switch and why where did we add it
+10. What is Link and we have used it as an alternative of ____________-
+11. what is the difference between Route and Link
+12. what is difference between Link and anchor tag
+13. Name route props
+14. <Route path="Products" render={() => <Products sortBy="newest"  /} />
+What is sortBy
+15.  <Route path="Products" render={() => <Products sortBy="newest"  {...props} /} />
+What is the difference between 14 and 15
+16. <Route path="Products/:id" component={ProductDetails} />
+17. <Route path="Products" component={Product} />
+ <Route path="Products/:id" component={ProductDetails} />
+
+what would be the output if i type product/1
+18.
+<h1> Product Details - {this.props.match.params.id} </h1>
+19.  <Route path="Post/:year?/:month?" component={Postt} /> 
+give all the url which will display post component
+20. location search will display what from url
+21. Command to install querystring
+22. handleSave= () =>{
+this.props.history.push("/products")
+} 
+23.
+handleSave= () =>{
+this.props.history.replace("/products")
+}  
+
+24. How do we programatically naviagte to a particular route

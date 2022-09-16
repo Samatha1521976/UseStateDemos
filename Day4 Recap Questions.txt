@@ -37,3 +37,50 @@ this.props.history.replace("/products")
 }  
 
 24. How do we programatically naviagte to a particular route
+25. difference between Link and NavLink
+26. From which website can i get syntaxes for forms using bootstrap
+27. handleSubmit = e => {
+e.preventDefault();
+} 
+what is e
+What does preventDefault does
+28. componentDidMount(){
+this.username.current.focus();
+}
+
+What does this code do?
+29. username = React.createRef();
+<input ref={this.username} id="username" type="text" className="form-Control" />
+
+30.  What is the alternative for 28 question where do i write it
+31.  <form onSubmit="this.handleSubmit">
+what is onSubmit when does it execute
+32.
+ handleSubmit = e => {
+e.preventDefault();
+const username = this.username.current.value;
+}  
+What is stored is username and when
+33. 
+state={
+account: {username:' ' , password:' '}
+}
+
+<input id="username" value={this.state.account.username} type="text" className="form-Control" />
+
+what is value binded to what is the intial value types in textbox
+34.
+handleChange=e=>{
+const account={this.state.account};
+account.username = e.currentTarget.value;
+this.setState({account})
+
+}
+<input 
+id="username" 
+onChange={this.handleChange}
+value={this.state.account.username} 
+type="text" 
+className="form-Control" />
+
+When is handle change executed what happens when it is executed.

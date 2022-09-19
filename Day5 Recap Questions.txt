@@ -1,0 +1,28 @@
+React Day5 questions
+==================
+1.How does a react app interacts with database
+2.Which fake api provdier did we work with
+3.Name the libraries which react can use to interact with api
+4. which library did we use to interact with api
+5.  Which function of axios did we use to retrieve all the objects using api
+6. Give syntax for the above question
+7.  What is promise
+8. Which property of promise has all the data
+9.  What is asyn and await and why
+10. Where did we write axios get function and why
+11. Give syntax for handleAdd
+12.  What is difference between request method options and request method post
+13. difference between put and patch
+14. give syntax for handleupdate
+15.  give syntax for handle delete
+16. differnce between optimistic update and pesimistic update
+17,  how to find if there is any error and undo the setState change
+18,  differences between expected and unexpected errors give example
+19. What is an interceptor in axios and why did we use it
+20  syntax of interceptor
+21. advantage of having global interceptor
+22.  Where do we need to write endpoint one time in the react app
+23. What is toastify and why
+24. syntax to install toastify
+25. libraries to be added to get a toastify
+26. Give to display a toastify

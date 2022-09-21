@@ -1,0 +1,3 @@
+
+
+scaffold-dbContext "Server=(localdb)\MSSQLlocaldb;Database=ShellDB1;Integrated Security=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models

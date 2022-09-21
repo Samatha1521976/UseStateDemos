@@ -1,0 +1,48 @@
+Step1: Create New WebAPI
+
+Step2: 
+Microsoft.EntityFrameworkCore;
+Microsoft.EntityFrameworkCore.SqlServer;
+Microsoft.EntityFrameworkCore.Tools
+
+or
+
+ <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.17"/>
+
+
+Step3:
+In PackageManageConsole
+
+scaffold-dbContext "Server=(localdb)\MSSQLlocaldb;Database=ShellDB1;Integrated Security=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
+Step4: 
+Add connection string to appsettings.json
+
+"ConnectionStrings": {
+    "DefaultConnectionString": "Server=(localdb)\\MSSQLlocaldb;Database=ShellDB1;Integrated Security=true"
+  },
+
+Step5:
+
+In Startup.cs
+
+using Microsoft.EntityFrameworkCore;
+using ProjectName.Models;
+
+
+In ConfigureServices
+
+services.AddDbContext<ShellDB1Context>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString")));
+
+
+
+Step6:
+Controller --> Add  -->Controllers --> API --> WEBAPI controller with entity framework
+
+
+Step7:
+
+build execute                                                                                   --

@@ -1,0 +1,33 @@
+Recap Questions of Day7
+===================
+Object oriented programming language
+What is oops
+What are two main components of oops
+What is a class made up of
+What is an object
+What happens a object is created
+What are access specifiers and why
+What is a class, Define a class
+Give some examples of a class and it;s objects
+entry point for a C# program is 
+Give syntax of main
+What is Pascal notation 
+What is variable
+What is a function
+How to execute a function of a class
+What is a constructor and why
+How many constructors can be there in a class
+Why many constructors
+What are properties and why
+What are access specifiers and why
+difference between public and private and internal and protected
+default access specifier of class
+default access specifier of method and variable
+What is an array how is it different from variable
+What are collection and how are they different from array
+What are generics and how are they different from collections
+Nme a class which follows lifo and fifo
+What are auto implemented properties
+C# follows camel or pascal notation
+What are rules to be followed for executing a function with return type
+rules to create a function with return type 

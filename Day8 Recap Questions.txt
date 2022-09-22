@@ -1,0 +1,50 @@
+Day8 Recap Questions
+==================
+1. What is a framework
+2. What is C#
+3. Is it hash or sharp
+4. What is a Namesapce . topmost namespace in C#
+5. Name the runtime of .net 
+6. What is managed code and unmanaged code
+7. compiled code of Console application is
+8. Name different applications we can create in .NET
+9. What is Visual Studio and Why and Advantages of Visual Studio
+10. Difference between Start with Debugging and Start without Debugging
+11. What are different windows we can use to check the variable values and call to different functions
+12.  Step by Step execution in Break mode is ____________-
+13. come out of a function in a single click in break mode is __________--
+14. execute a function without getting into a function in a single click in break mode is ____________________
+15. What is REST
+16. What is WEB API
+17. The methods in a Web API should be
+18. What is a URI give another name
+19.What is content negotiation and why
+20. Name the tools used to check the execution of the API
+21. Which class is inherited into a WebAPI
+22. [Route('api/[controller]')]
+what is this syntax do. Why controller is in square bracket
+22. Each API Controller is decorated with route and __________ attribute
+23. Which folder do i need to create API's
+24. Which folder do i need to create entities
+25. What is EF and why
+26. What is ORM pattern
+27. who takes care of mapping in EF
+28. What did we learn yesterday Ef or EFcore
+29, What did we create yesterdya WebAPI or WebAPI core
+30. Which libraries do we need to install to work with ef core
+31. Name two different approaches of EFcore
+32.steps for DBfirst approach
+33. scaffold-dbcontext connectionstring provider -OutpurDir Models What is the result of this
+34. DBCOntext class is used for 
+35. how dbcontext class connects to db
+36. Where do i need to write a connectionstring in webapi program
+37. what is a dependency
+38. Which function of which program is dependency container in .net core
+39. advantage of dependency injection
+40. what is loosely coupled applicaiton how to achieve it
+41. what is constructor dependency innjection
+44. draw back of tightly coupled applcations
+45. What is SOA.
+
+32. 
+ 

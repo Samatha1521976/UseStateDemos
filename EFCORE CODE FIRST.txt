@@ -1,0 +1,56 @@
+Step1: Create a asp.net core webapi
+step2: install the packages
+step3: Create Models folder
+
+Step4: Create a  SamapleDBContext   class in Models
+  public class SamapleDBContext : DbContext
+    {
+        public SamapleDBContext()
+        {
+
+        }
+
+        public SamapleDBContext(DbContextOptions<SamapleDBContext> options) : base(options)
+        {
+
+        }
+       
+        public DbSet<Book> Books { get; set; }
+
+        }
+    }
+
+Step5: Create a Class per table
+ public class Book
+    {
+        [Key]
+        public int Id { get; set; }
+
+        [StringLength(40)]
+        public string Title { get; set; }
+        [StringLength(40)]
+        public string Publisher { get; set; }
+}
+
+
+
+Step6: write connection string in appsettings.json
+  "ConnectionStrings": {
+    "DefaultConnectionString": "Server=(localdb)\\mssqllocaldb;Database=SamapleDB;Integrated Security=true"
+  },
+
+Step7: Startup.cs
+ConfigureServices method
+
+
+            services.AddDbContext<SamapleDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString")));
+
+
+Step8: build
+
+Step9: PackageManager console
+
+Add-Migration AddDatbase
+UpdateTable
+
+Step10 : Verify the Database and table

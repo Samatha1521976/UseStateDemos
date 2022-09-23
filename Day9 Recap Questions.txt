@@ -1,0 +1,40 @@
+Day9 Reacap Questions
+===================
+1.What is CodeFirst Approach
+2.When do you go for code first approach
+3.Steps for Code first approach
+4. Add-Migrations FileName what is the result of this command
+5. Name files created by above command
+6. FilName.cs what are the functions inside this class
+7. Which class is inherited into FileName.cs
+8. What is/are the functions used inside Up() method
+9. What does update-database do.
+10. Which command is sql server is used for creating a table
+11. what is integrity in sql server and how de we implement integrity 
+12. Types of Integrity in Sql 
+13. What is primary key and why
+14. what is foreign key and why
+15. syntax for primary key
+16. Syntax for foreign key
+17. What is a composite key and when do you create a composite key
+18, what is a candidate key
+19, What is an alternate key
+20. difference between primary key and unique key
+21. what is identity and why
+22. what happens if i donot pass parameters to idenity
+23. Set Identity ON what does this do and why
+24. Set Identity off what does this do and wht
+25. syntax to create relationship between two table
+26. where do i need to create a Entity class in code first approach
+27. Where do i need to create a domain class in code first approach
+28. Which class is inhertied into DBContext class
+29. Each entity should be a _______________ in DBContext class
+30. Where should i type connectionstring in .net core application
+31. [Key]
+32. [StringLength(40)]
+33. [REquired]
+34. [Datatype(Datatype.password)] 
+35. which library does these above attributes belong
+36. What are these attributes called as 
+37. Why these attributes
+38, What is referential integrity and why

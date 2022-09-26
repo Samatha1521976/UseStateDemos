@@ -1,0 +1,81 @@
+Java solution
+
+import java.io.*;
+
+import java.util.*;
+
+import java.text.*;
+
+import java.math.*;
+
+import java.util.regex.*;
+
+ 
+
+// Class name should be "Source",
+
+// otherwise solution won't be accepted
+
+public class Source {
+
+    public static void main(String[] args) {
+
+       
+
+        Scanner in = new Scanner(System.in);
+
+        int a;
+
+       
+
+      a = in.nextInt();
+
+        List<String>list = new ArrayList<String>();
+
+        in.nextLine();
+
+        while(a-- >0) {
+
+            String s = in.nextLine();
+
+            list.add(s);
+
+        }
+
+        for (String s: list){
+
+            doIt(s);
+
+        }
+
+    }
+
+    private static void doIt(String s) {
+
+        String res = "";
+
+        for(String l : s.split(" ")){
+
+            String n = reverse(l);
+
+            if(!n.equals(l)) {
+
+                res += n + " ";
+
+            }
+
+         }
+
+        System.out.println(res.trim());
+
+    }
+
+    private static String reverse(String n) {
+
+        return new StringBuilder(n).reverse().toString();
+
+    }  
+
+  }
+
+

@@ -1,0 +1,34 @@
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+
+public class Source
+    {
+        public Stack students = new Stack();
+        public void AddStudent(string name)
+        {
+            students.Push(name);
+        }
+        public string GetStudent()
+        {
+            return (students.Peek().ToString());
+        }
+        public void RemoveStudent()
+        {
+            students.Pop();
+        }
+        public string GetAllStudents()
+        {
+            string str="";
+            foreach (var k in students)
+            {
+                if (str == "")
+                    str = k.ToString();
+                else
+                str = str+ ","+k;
+            }
+            return str;
+        }
+    }

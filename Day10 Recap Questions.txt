@@ -1,0 +1,56 @@
+Day10 RecapQuestions
+===================
+1. What is a GraphQL API
+2. Can i work both code first and dbfirst in graphql
+3. Which Library did we install for playground
+4. Which two library of graphql did we install
+5. Which version of .net core did we work with
+6. Which version of EFCore did we work with
+7. An Entity should be a ___________ inside a DBContext class
+8. In Code first approach of GraphQL we created __________ class and ____________ method to provide initial data to over database table
+9. What is a repository class and why did we use
+10. Where did we write connection string
+11. how did we pass connection string to DbContext class . Give Syntax
+12. Where did we register the  Repository class Give Syntax and explain the meaning of the syntax
+13. Where and how and Why did i called dbContext.Seed in Startup.cs
+14. What would happen if i do not call dbContext.Seet in Startup.cs
+15.Which method in ConfigureServices of startup.cs class adds all types that implement GraphQL types in the current assembely
+16. Which method in ConfigureServices of startup.cs class adds a GraphQL.Server.Transport.AspNetCore.IGraphQLRequestDeSerializer and IDocumentWriter to service collections along with configuration settings
+17. Which method in ConfigureServices of startup.cs class add all the services of GraphQL
+18.  services.AddScoped<IServiceProvider>(s => new FuncServiceProvider(s.GetRequiredService));
+Purpose of this syntax in ConfigureServices method of Startup.cs class
+19.Which method in ConfigureServices of startup.cs class is used to register TechConferenceSchema as a service
+20.  What is services.AddCors do and why
+21.   app.UseCors(builder =>
+            builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+Where did we write this syntax and why
+explaing all the three methods in details
+22.   app.UseGraphQL<TechConferenceSchema>();
+          Where did we write this syntax and why
+what happens if i donot write this
+23.   app.UseGraphQLPlayground();
+Where did we write this syntax and why
+what happens if i donot write this
+24. Each Object Type class should inherit ObjectGraphType<Entityclass >  which is a base class for all object output graphql types which have their own properties (True/False)
+25. Each ObjectInputType class should inherit InputObjectGraphType which is a base class for all objectinputypes input grpahqltypes with properties (True/False)
+26. In Order to Create a TechConferenceSchema File, Which two files are to be created first
+27. ____________ class is used to query the table in database
+28, ______________ class is used to create/update/delete a table in database
+29. What is DevOps
+30. An image is made up of ____________ and _____________
+31. difference between a image and a container
+32. three difference between VM and Container
+33. Advantages of a Container
+34. Two different ways to work with Docker in Windows
+35. Docker is a _____________ technology
+36. List the active containers
+37. List the active and stopped conatiners
+38. list the images
+39. remove a image
+40. Stop a container
+41. kill a container
+42. difference between stop and kill
+43. difference between rm and rmi
+44. What does pull command with image name does and from where does it pull the image
+45. Command to check version of docker
+
